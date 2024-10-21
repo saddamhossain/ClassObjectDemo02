@@ -6,6 +6,7 @@ Console.WriteLine($"{bankAccount1.AccountName}'s initial balance: {bankAccount1.
 
 Console.WriteLine($"{bankAccount2.AccountName}'s initial balance: {bankAccount2.Balance}");
 
+
 if (bankAccount1.Deposite(100))
 {
     Console.WriteLine($"Deposited to {bankAccount1.AccountName}'s account. New balance: {bankAccount1.Balance}");
